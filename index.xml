@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="GlobalTranspose" commit="146e6b52d3d031777cdb4205fd32dbc693d276e2">
+<index version="1" name="GlobalTranspose" commit="99f4bd3e11622f43b571e89b08d3078df8035598">
+  <category name="JSFX">
+    <reapack name="midimaster.jsfx" type="effect" desc="MIDI Global Transpose Master">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Transposes incoming MIDI notes based on key and semitone transpose sliders.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="HelloFromTokyo" time="2026-09-05T19:56:45Z">
+        <source>https://github.com/invulBox/GlobalTranspose/raw/40f291a01b458cba1fc13ac8b364712ed2a21988/JSFX/midimaster.jsfx</source>
+      </version>
+    </reapack>
+    <reapack name="midislave.jsfx" type="effect" desc="MIDI Global Transpose Slave (with Independent Octave)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Transposes incoming MIDI notes based on key and semitone transpose sliders.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="HelloFromTokyo" time="2026-09-05T19:57:03Z">
+        <source>https://github.com/invulBox/GlobalTranspose/raw/99f4bd3e11622f43b571e89b08d3078df8035598/JSFX/midislave.jsfx</source>
+      </version>
+    </reapack>
+  </category>
   <category name="Scripts">
     <reapack name="hellofromtokyo_Add MasterSlave to selected track.lua" type="script" desc="Add JSFX to selected tracks at first position, ensure Global Transpose Master on master track">
       <metadata>
