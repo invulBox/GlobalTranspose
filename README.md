@@ -1,23 +1,14 @@
-# ReaPack Repository Template
+# GlobalTranspose (for Reaper)
 
-A template for GitHub-hosted ReaPack repositories with automated
-[reapack-index](https://github.com/cfillion/reapack-index)
-running from GitHub Actions.
+ 2 JSFX Plugins: <br> <br>
+ midimaster - Belongs on master track <br>
+ midislave - Belongs on an instrument track (before any instruments) <br>
 
-Replace the name of the repository in [index.xml](/index.xml) when using this template.
-This will be the name shown in ReaPack.
+ 1 script: <br> <br>
+ masterkeybox - Changes the global key (requires midimaster to be on master track) supports mousewheel+dropbox. <br>
+ addmasterslave - Adds midislave to selected track and adds midimaster to master track (if not found)
 
-```xml
-<index version="1" name="Name of your repository here">
-```
+<br><br><br>
+masterkeybox Requires ReaImGui (by cfillion)
+ 
 
-Replace the contents of this file ([README.md](/README.md)).
-This will be the text shown when using ReaPack's "About this repository" feature.
-
-reapack-index looks for package files in subfolders.
-The folder tree represents the package categories shown in ReaPack.
-
-Each package file is expected to begin with a metadata header.
-See [Packaging Documentation](https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation) on reapack-index's wiki.
-
-The URL to import in ReaPack is [https://github.com/`<your username>`/`<repository name>`/raw/master/index.xml](https://github.com/cfillion/reapack-repository-template/raw/master/index.xml).
