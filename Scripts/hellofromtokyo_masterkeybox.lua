@@ -1,6 +1,6 @@
 -- @description Master Transpose Key Display
 -- @version 1.0
--- @HelloFromTokyo
+-- @author HelloFromTokyo
 -- @about
 --   # Master Transpose Key Display
 
