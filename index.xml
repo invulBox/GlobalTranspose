@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="GlobalTranspose" commit="99f4bd3e11622f43b571e89b08d3078df8035598">
+<index version="1" name="GlobalTranspose" commit="f81799e706fb7207249653f23ea651f0485e0f93">
   <category name="JSFX">
     <reapack name="midimaster.jsfx" type="effect" desc="MIDI Global Transpose Master">
       <metadata>
@@ -32,17 +32,11 @@
   </category>
   <category name="Scripts">
     <reapack name="hellofromtokyo_Add MasterSlave to selected track.lua" type="script" desc="Add JSFX to selected tracks at first position, ensure Global Transpose Master on master track">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 Add JSFX to selected tracks at first position, ensure Global Transpose Master on master track\par}
-}
-]]></description>
-      </metadata>
       <version name="1.0" author="HelloFromTokyo" time="2026-09-05T19:16:03Z">
         <source main="main">https://github.com/invulBox/GlobalTranspose/raw/302ae7c78ea9e4f0265375bdf2364455f978d83d/Scripts/hellofromtokyo_Add%20MasterSlave%20to%20selected%20track.lua</source>
+      </version>
+      <version name="1.1" author="HelloFromTokyo" time="2026-09-20T17:16:17Z">
+        <source main="main">https://github.com/invulBox/GlobalTranspose/raw/f81799e706fb7207249653f23ea651f0485e0f93/Scripts/hellofromtokyo_Add%20MasterSlave%20to%20selected%20track.lua</source>
       </version>
     </reapack>
     <reapack name="hellofromtokyo_masterkeybox.lua" type="script" desc="Master Transpose Key Display">
